@@ -3,6 +3,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header, .footer{
@@ -13,8 +14,7 @@ body{
 .header{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 .logo{
