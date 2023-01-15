@@ -1,14 +1,20 @@
 body{
     font-family:sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
+.header, .footer{
+    background-color: #1f2937;
+    color: white;
+}
 
 .header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1f2937;
-    color: white;
+    
 }
 
 .logo{
@@ -19,6 +25,11 @@ body{
 .left-links{
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.footer{
+    margin-top: auto;
+    text-align: center;
 }
 
 ul{
