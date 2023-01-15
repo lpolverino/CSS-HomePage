@@ -63,12 +63,51 @@ img {
 /*only temporal*/
 
 button {
+    margin: 8px 0px;
     padding: 8px 32px;
     border-radius: 8px;
     background: #3882f6;
     border: 1px solid #3882f6;
     color: white;
 }
+
+.information{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.inf-text{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.bxes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.box{
+    display: flex;
+    gap:16px;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.img-inf{
+    flex: 1;
+    border-radius: 8px;
+    max-width: 200px;
+    max-height: 200px;
+    border: 2px solid #3882f6;
+}
+
 ul{
     display: flex;
     gap: 10px;
