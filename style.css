@@ -6,7 +6,7 @@ body{
     margin: 0;
 }
 
-.header, .footer{
+.header, .footer, .awesome{
     background-color: #1f2937;
     color: white;
 }
@@ -22,7 +22,7 @@ body{
     color:#f9faf8;
 }
 
-.left-links{
+.left-links, .subtitle{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -32,6 +32,35 @@ body{
     text-align: center;
 }
 
+.contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.awesome{
+    display: flex;
+    justify-content: center;
+    padding: 42px 0px;
+    text-align: left;
+    gap: 64px;
+}
+.hero{
+    max-width: 400px;
+}
+
+.hero .title{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+
+/*only temporal*/
+img {
+    width: 400px;
+    height: 200px;
+}
+/*only temporal*/
 ul{
     display: flex;
     gap: 10px;
