@@ -76,7 +76,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    margin-top: 32px;
+    margin: 32px 0 76px 0;
 }
 
 .inf-text{
