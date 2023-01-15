@@ -133,6 +133,33 @@ button {
     font-weight: bold;
 }
 
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px;
+}
+
+.contact-box{
+    flex: 1;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+#contact-btn {
+    align-self: center;
+    margin: 8px 0px;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.contact-text{
+    color: white;
+}
+
 ul{
     display: flex;
     gap: 10px;
